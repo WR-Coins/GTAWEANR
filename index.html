@@ -1,0 +1,136 @@
+<!--
+ Quara Theme by OllieJW (https://olliejw.me)
+ License - https://olliejw.me/tos
+-->
+
+<!DOCTYPE html>
+<head>
+    <link rel="icon" href="img/gtaweanr.png">
+  <title>GTAWEANR.GA / RolePlay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <meta name="title" content="GTAWEANR.GA / RolePlay">
+
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+  <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+  <script src="js/fireflies.js"></script>
+  <script src="js/main.js"></script>
+  <script src="config.js"></script>
+  
+  <script>tosAgreed = false</script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Raleway|Quicksand">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="config.css">
+<style>  
+  
+.noselect {
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+} 
+  
+</style>  
+</head>
+
+<body>
+
+  <div id="target"></div>
+
+  <script id="template" type="text/x-handlebars-template">
+
+  <header>
+    <div class="hero" id="hero">
+      <h1 class="noselect">Xin Chào</h1>
+      <h3 class="server-status-container">Máy Chủ Đang Trực Tuyến Với <span class="server-status info" style="color:red;">0</span> Người Chơi, Tham Gia Ngay IP: <span class="info ip" id="ip" onclick="copyIP()" style="color:yellow;">GTAWEANR.GA</span></h3>
+	  <div id="pinned">
+        <div class="pinned-card shrink shrink-pinned">
+          <i class="fas fa-thumbtack"></i><strong class="noselect">Thông Báo Mới</strong>
+          <p class="noselect" >Coming soon...</p>
+          <a href="#" class="btn">Xem Thêm</a>
+        </div>
+      </div>
+	</div>
+  </header>
+
+  <section id="header" class="dark">
+    <nav class="nav">
+      <ul class="nav_links">
+        <li><a class="noselect" href="https://www.facebook.com/GTAWR1707">Fanpage</a></li>
+        <li><a class="noselect" href="https://www.facebook.com/groups/gtawr.roleplaymcvn">Group</a></li>
+        <li><a class="noselect" href="https://www.youtube.com/channel/UC1LeVfyWkVZ4yZ5rDn4bpwA">Youtuber</a></li>
+        <li><a class="noselect" href="#">TikToker</a></li>		
+        <li><a class="noselect" href="https://discord.gg/6JcUgKevV8">Discord</a></li>
+      </ul>
+    </nav>
+  </section>
+  
+ <section class="dark">
+	  <hr> 
+ </section>  
+  
+  <section  id="header" class="dark">
+    <h1 class="noselect">Giới Thiệu Về Máy Chủ</h1>
+    <div class="enlarge" class="text" style="font-size:20px;">  	
+      <pre>
+     GTAWEANR một máy chủ Minecraft đơn với thể loại RolePlay được lấy ý tưởng từ trò chơi GTA
+	         người tạo ra dự án và quản lý dự án GTAWEANR là Nguyễn Nhân Hậu
+	               nhà tài trợ cho dự án là MoonSuu (Owner MythicWolf)		
+                         Vui lòng đăng ký tại discord để được tham gia				   
+     </pre>
+    </div>		
+  </section>
+  
+ <section class="dark">
+	  <hr> 
+ </section>    
+  
+  <section class="dark">
+    <h1 class="noselect">Giới Thiệu Tính Năng</h1>
+    <div class="feature right">
+      <img src="img/hethong_1_gtawr.jpg" width="500px" onContextMenu="return false;" class="enlarge">
+      <p class="enlarge">
+        <strong>Các Hệ Thống Có Trong Máy Chủ</strong>
+        Để giúp người chơi có trải nghiệm tốt về máy chủ, chúng tôi có nhiều hệ thống đa dạng phong phú, với hệ thống: Resource Packs, Cốt Truyện, Công Việc, Voice Mic... còn rất nhiều hệ thống khác, hãy vào máy chủ và trải nghiệm để biết thêm chi tiết.
+      </p>
+    </div>
+    <div class="feature left">
+      <img src="img/hethong_2_gtawr.png" width="500px" onContextMenu="return false;" class="enlarge">
+      <p class="enlarge">
+        <strong class="noselect">Demo V1</strong>
+        Hiện tại GTAWEANR vẫn đang trong giai đoạn phát triển, và phiên bản hiện tại là Demo V1, do vẫn còn khá nhiều lỗi chưa khai thác được, nên việc ra mắt bản chính thức vẫn còn rất lâu
+      </p>
+    </div>	
+  </section> 
+
+ <section class="dark">
+	  <hr> 
+ </section>  
+
+  <footer>
+    <div align="center" class="noselect" class="text" style="font-size:15px;">  	
+      <pre>
+                                         Nhà Tài Trợ MythicWolf / Copyright &copy; WR Coins / Dịch Vụ WR Coins 
+     </pre>
+    </div>	
+  </footer>
+  </script>
+
+  <script src="https://remote.olliejw.me/license.js"></script>
+  
+</body>
+
+
+
+
+
+
+
+
+
+
+
